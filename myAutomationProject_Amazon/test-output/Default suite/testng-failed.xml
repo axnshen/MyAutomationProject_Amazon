@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testNG_TestCasses.LoginTestWithValidData">
+        <methods>
+          <include name="test1_VerifyLoginByPassingValidEmailAndPassword"/>
+          <include name="createPOMObjects"/>
+          <include name="removeObjects"/>
+          <include name="launchBrowser"/>
+          <include name="getBackToHomePage"/>
+          <include name="enterURL"/>
+          <include name="quitBrowser"/>
+          <include name="test2_VerifyLoginByPassingValidMobileAndPassword"/>
+        </methods>
+      </class> <!-- testNG_TestCasses.LoginTestWithValidData -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
